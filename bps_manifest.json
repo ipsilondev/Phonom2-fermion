@@ -1,0 +1,29 @@
+{
+  "compression": {
+    "codec": "zstd",
+    "level": 19
+  },
+  "files": [
+    {
+      "original_bytes": 277493,
+      "original_sha256": "d0daad3b2a182893844f4abdc11e4f5b7083f7d42c8ad7e8203f71559785a31b",
+      "path": "config.json",
+      "stored_bytes": 277493
+    },
+    {
+      "original_bytes": 177438361,
+      "original_sha256": "4b6bfa3a12cc3c4e0a54f2ab3ec4ca7a842b09e5c7ecfc8e7ca0ac6cc8c11468",
+      "path": "model.fermion",
+      "stored_bytes": 177438361
+    },
+    {
+      "original_bytes": 821,
+      "original_sha256": "3c1874501a1efb6ef569eab082aa68d91b93ec6e4d2fb00dbef7851edf2ae510",
+      "path": "packed_manifest.json",
+      "stored_bytes": 821
+    }
+  ],
+  "profile": "2",
+  "release_format": "phonon-byteplane-tar-zstd-v1",
+  "transform": "byte-plane-split-per-tensor-v1"
+}

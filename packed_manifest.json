@@ -1,0 +1,20 @@
+{
+ "format": "fermion-five-value-parakeet-v1",
+ "status": "PASS",
+ "container": "model.fermion",
+ "container_sha256": "4b6bfa3a12cc3c4e0a54f2ab3ec4ca7a842b09e5c7ecfc8e7ca0ac6cc8c11468",
+ "container_bytes": 177438361,
+ "five_value_modules": 264,
+ "dense_tables": "int6",
+ "group_size": 128,
+ "bits_per_plane": 2,
+ "planes": 2,
+ "base_model": "nvidia/parakeet-tdt-0.6b-v3",
+ "license": "cc-by-4.0",
+ "gates": {
+  "G-PLANE": "max abs delta 0.0 on 264/264 (mlx dequantize vs exact five-value expansion), 2026-09-25",
+  "G-LOAD": "explicit key-set check, 697/697 names, 0 missing / 0 unexpected",
+  "G-DECODE mlx-vs-mlx": "40/40 LibriSpeech utterances identical text and tokens (bf16 packed vs fp32 dense), 2026-09-26"
+ },
+ "training": "C4c: 6,000 h targeted diet on the five-value encoder (step 45,001); int6 dense tables"
+}
